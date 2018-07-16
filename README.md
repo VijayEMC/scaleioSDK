@@ -22,7 +22,7 @@ urllib3
 
 ###### Use:
 
-This library uses a  config file to connect to the ScaleIO Gateaway. After cloning, you'll notice a file named 'settings.json.example' in the directory. Update this file with the appropriate credentials (ip, port, username, password) and remove '.example' from the file name and the applications initialization will automatically connect to your gateway.
+This library uses a config file to connect to the ScaleIO Gateaway. After cloning, you'll notice a file named 'settings.json.example' in the directory. Update this file with the appropriate credentials (ip, port, username, password) and remove '.example' from the file name. The application's initialization will automatically connect to your gateway.
 
 When writing your own python app using this library, you'll want to import much of the functionality from the helperSIO folder. To do so, simply add these lines to your file:
 
