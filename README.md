@@ -11,9 +11,9 @@ This repository features the beginnings of a ScaleIO SDK in python. I plan to bu
 To use this library, simply clone the repo into your working directory.
 
 Required Libraries Include:
-JSON
-Requests
-urllib3
+JSON  
+Requests  
+urllib3  
 
 
 ###### Use:
@@ -24,17 +24,17 @@ This libarary uses a config file to connect to the ScaleIO Gateaway. After cloni
 ###### Volumes:
 
 **Things you can do:**
-    - Get a list of all Volumes
-    - Get a specific volume object using the volume ID
-    - Get the statistics of a specific volume
-    - Delete/Remove a Volume
-    - Add Capacity to a Volume
-    - Create a Volume
-    - Map a Volume to an SDC
-    - UnMap a Volume from an SDC
-    - Erase All Test Voluems -- ** CAREFUL **
-    - Get a Volume ID using the Volume Name
-
+    - Get a list of all Volumes  
+    - Get a specific volume object using the volume ID  
+    - Get the statistics of a specific volume  
+    - Delete/Remove a Volume  
+    - Add Capacity to a Volume  
+    - Create a Volume  
+    - Map a Volume to an SDC  
+    - UnMap a Volume from an SDC  
+    - Erase All Test Voluems -- ** CAREFUL **  
+    - Get a Volume ID using the Volume Name  
+  
 **Example: Please see volumeExample.py for some easy use cases.**
 
 
