@@ -17,11 +17,12 @@ JSON
 Requests  
 urllib3  
 
+
 *************************************************************
 
 ###### Use:
 
-This libarary uses a config file to connect to the ScaleIO Gateaway. After cloning, you'll notice a file named 'settings.json.example' in the directory. Update this file with the appropriate credentials and remove '.example' from the file name and the applications initialization will automatically connect to your gateway.
+This library uses a config file to connect to the ScaleIO Gateaway. After cloning, you'll notice a file named 'settings.json.example' in the directory. Update this file with the appropriate credentials (ip, port, username, password) and remove '.example' from the file name and the applications initialization will automatically connect to your gateway.
 
 *************************************************************
 
