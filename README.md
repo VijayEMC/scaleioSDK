@@ -38,44 +38,44 @@ This libarary uses a config file to connect to the ScaleIO Gateaway. After cloni
 **Example: Please see volumeExample.py for some easy use cases.**
 
 
-######Snapshots:
+###### Snapshots:
 Coming Soon.
 
 
 
 
-######Protection Domains:
-Coming Soon.
-
-
-
-
-
-######Quality of Service:
-Coming Soon.
-
-
-
-
-######MDM:
-Coming Soon.
-
-
-
-
-######SDC:
+###### Protection Domains:
 Coming Soon.
 
 
 
 
 
-######SDS:
+###### Quality of Service:
 Coming Soon.
 
 
 
 
-######And More.... (hopefully soon :)
+###### MDM:
+Coming Soon.
+
+
+
+
+###### SDC:
+Coming Soon.
+
+
+
+
+
+###### SDS:
+Coming Soon.
+
+
+
+
+###### And More.... (hopefully soon :)
 
 
