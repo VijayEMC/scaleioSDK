@@ -1,0 +1,7 @@
+{
+    "ip" : <IP Address>,
+    "port" : <Port>,
+    "username" : <Username>, 
+    "password" : <Password>
+
+}
