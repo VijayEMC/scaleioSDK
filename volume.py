@@ -12,6 +12,14 @@ def getVolumes(sio):
     res = doGet(sio, "/api/types/Volume/instances")
     return json.loads(res.content)
 
+def getAllVolumeIds(sio):
+    allVolumes = getVolumes(sio)
+    volumeIds = []
+    for volume in allVolumes:
+        volumeIds.append(volume["id"])
+
+    return volumeIds
+
 ########################
 ## GET VOLUME WITH ID ##
 ########################

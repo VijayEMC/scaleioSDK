@@ -1,6 +1,7 @@
 ## ScaleIO SDK - Python
 
-###### UPDATED FEATURES - 7/16/18:
+###### UPDATED FEATURES - 7/19/18:
+Snapshot creation and consistency group deletion.
 Volume creation, mapping, unmapping, expansion and deletion.
 
 *************************************************************
@@ -52,7 +53,13 @@ from helperSIO.helper import *
 *************************************************************
 
 ###### Snapshots:
-Coming Soon.
+**Things you can do:**  
+    - Take a snapshot of a single or multiple volumes
+    - Remove all snapshots associated with a consistency group
+  
+**Example: Please see snapshotExample.py for some easy use cases.**
+
+Functionality Coming Soon: Get Consistency Group Ids for programmatic removal of consistency groups.
 
 *************************************************************
 
