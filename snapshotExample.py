@@ -16,10 +16,11 @@ systemId = systemInstanceIdByName(sio, "plsio")
 # get all volume Ids
 vols = getAllVolumeIds(sio)
 
+# take a shapshot of all volumes
 snapGroup = snapVolumes(sio, vols, systemId)
 print(json.dumps(snapGroup))
 
-
+# remove all snapshot volumes created from snapVolumes() 
 res = removeConsistencyGroup(sio, snapGroup["snapshotGroupId"], systemId)
 print(res)
 
