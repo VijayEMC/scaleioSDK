@@ -54,10 +54,10 @@ from helperSIO.helper import *
 
 ###### Snapshots:
 **Things you can do:**  
-    - Take a snapshot of a single or multiple volumes
-    - Remove all snapshots associated with a consistency group
+    - Take a snapshot of a single or multiple volumes  
+    - Remove all snapshots associated with a consistency group  
   
-**Example: Please see snapshotExample.py for some easy use cases.**
+**Example: Please see snapshotExample.py for some easy use cases.**  
 
 Functionality Coming Soon: Get Consistency Group Ids for programmatic removal of consistency groups.
 
